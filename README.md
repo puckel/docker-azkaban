@@ -6,7 +6,7 @@ Azkaban consists of 3 key components:
 - AzkabanWebServer
 - AzkabanExecutorServer
 
-This repository contains **Dockerfiles** of [azkaban](http://azkaban.github.io/) for [Docker](https://www.docker.com/).
+This repository contains **Dockerfiles** of [Azkaban](http://azkaban.github.io/) for [Docker](https://www.docker.com/).
 
 
 ### Base Docker Image
@@ -19,8 +19,10 @@ This repository contains **Dockerfiles** of [azkaban](http://azkaban.github.io/)
 2. Install [Docker-compose](https://docs.docker.com/compose/install/).
 
 3. Download automated builds
-- [azkaban-webserver](https://registry.hub.docker.com/u/puckel/docker-azkaban-webserver/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull puckel/docker-azkaban-webserver`
-- [azkaban-executor](https://registry.hub.docker.com/u/puckel/docker-azkaban-executor/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull puckel/docker-azkaban-executor`
+
+[azkaban-webserver](https://registry.hub.docker.com/u/puckel/docker-azkaban-webserver/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull puckel/docker-azkaban-webserver`
+
+[azkaban-executor](https://registry.hub.docker.com/u/puckel/docker-azkaban-executor/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull puckel/docker-azkaban-executor`
 
 Alternatively, you can build an image from [Dockerfile](https://github.com/puckel/docker-azkaban).
 
