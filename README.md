@@ -20,9 +20,9 @@ This repository contains **Dockerfiles** of [Azkaban](http://azkaban.github.io/)
 
 3. Download automated builds
 
-[azkaban-webserver](https://registry.hub.docker.com/u/puckel/docker-azkaban-webserver/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull puckel/docker-azkaban-webserver`
+[azkaban-webserver](https://registry.hub.docker.com/u/puckel/azkaban-webserver/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull puckel/docker-azkaban-webserver`
 
-[azkaban-executor](https://registry.hub.docker.com/u/puckel/docker-azkaban-executor/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull puckel/docker-azkaban-executor`
+[azkaban-executor](https://registry.hub.docker.com/u/puckel/azkaban-executor/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull puckel/docker-azkaban-executor`
 
 Alternatively, you can build an image from [Dockerfile](https://github.com/puckel/docker-azkaban).
 
